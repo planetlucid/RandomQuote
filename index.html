@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<h1>Test Json Quote</h1>
+		<blockquote>
+			<p id="quote">
+            </p>
+            <footer id="author">
+            </footer>
+		</blockquote>
+        <script src="jquery.js"></script>
+        <script>
+            var req = new XMLHttpRequest();
+            req.open("GET", "quote.json", true); 
+            req.onreadystatechange = monCode;   // la fonction de prise en charge
+            req.send(null);
+            function monCode(){
+                console.log(req);
+            }
+            /*$(document).ready(function (){
+
+                $.getJSON("quote.json", function(json) {
+                    $('blockquote p').html(quote[nb].text);
+                    $('blockquote footer').html(quote[nb].author);
+                });
+            });
+            var quote = [
+                { "text":"It takes a great deal of bravery to stand up to your enemies, but a great deal more to stand up to your friends.", "author":"Dumbledore" },
+                { "text":"Do, or do not. There is no try.", "author":"Yoda" },
+                { "text":"I know I have a heart because I feel it breaking.", "author":"Wizard of Oz" },
+                { "text":"My precious.", "author":"Gollum" }
+                ];
+            var i= quote.length;
+            var nb = Math.floor(Math.random() * i);
+            console.log(i, nb);*/
+
+        </script>
+	</body>
+</html>
