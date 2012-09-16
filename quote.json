@@ -1,8 +1,22 @@
 {
     "quotes": [
-    { "text":"It takes a great deal of bravery to stand up to your enemies, but a great deal more to stand up to your friends.", "author":"Dumbledore" },
-    { "text":"Do, or do not. There is no try.", "author":"Yoda" },
-    { "text":"I know I have a heart because I feel it breaking.", "author":"Wizard of Oz" },
-    { "text":"My precious.", "author":"Gollum" }
+    { "text":"It takes a great deal of bravery to stand up to your enemies, but a great deal more to stand up to your friends.",
+    "author":"Dumbledore" },
+    { "text":"Do, or do not. There is no try.",
+    "author":"Yoda" },
+    { "text":"I know I have a heart because I feel it breaking.",
+    "author":"Wizard of Oz" },
+    { "text":"My precious.",
+    "author":"Gollum" },
+    { "text":"The appropriate question is when the hell are they?!",
+	"author":"Dr. Emmet L. Brown" },
+	{ "text":"Who gives a fu**. Just be ready.",
+	"author":"John McClane" },
+	{ "text":"May I ask, why you felt little Tiffany deserved to die?",
+	"author":"Zed" },
+	{ "text":"Hasta la vista, baby.",
+	"author":"The Terminator" },
+	{ "text":"Dave, my mind is going. I can feel it.",
+	"author":"HAL 9000" }
     ]
 }
