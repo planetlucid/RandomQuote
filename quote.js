@@ -1,3 +1,13 @@
+/*
+ * ----------------------------------------------------------------------------
+ * « LICENCE BEERWARE » (Révision 42):
+ * @notnark a créé ce fichier. Tant que vous conservez cet avertissement,
+ * vous pouvez faire ce que vous voulez de ce truc. Si on se rencontre un jour et
+ * que vous pensez que ce truc vaut le coup, vous pouvez me payer une bière en
+ * retour. Marius
+ * ----------------------------------------------------------------------------
+ */
+
 var req = new XMLHttpRequest();
             req.open("GET", "quote.json", true);
             req.onreadystatechange = quoteParser;
@@ -12,7 +22,6 @@ var req = new XMLHttpRequest();
                     var text = quote.quotes[nb].text;
                     var author = quote.quotes[nb].author;
                     /* Display the quote */
-                    $('.quote p').html(text);
-                    $('.quote footer').html(author);
+                    $('.quote').html('<p>'+text+'</p><footer>'+author+'</footer>');
                 }
             }
